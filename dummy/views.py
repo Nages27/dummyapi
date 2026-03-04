@@ -10,6 +10,7 @@ from rest_framework import status
 
 
 class to(APIView):
+    .............
     def post(self,request):
         serial=serializeduser(data=request.data)
         if serial.is_valid():
